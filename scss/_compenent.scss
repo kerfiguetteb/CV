@@ -1,0 +1,165 @@
+  h2,h3{
+      font-family: $font-family2;
+  }  
+p{      font-family: $font-family3;
+}    
+@media screen and (min-width:1200px) {
+    
+
+
+.post{
+    border: 2px solid $color1;
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    z-index: 2;
+   padding: 20px;
+
+}
+
+.post_title{
+   
+    font-family: Lora;
+    color: $color1;
+    top: -38px;
+    position: relative;
+    margin: 0px 350px;
+    background-color: white;
+}
+
+.post_para{
+    margin: 15px;
+}
+.img{
+    text-align: center;
+}
+
+.containerbloc{
+   
+    left: -30px;
+}
+}
+@media screen and (max-width:1200px) {
+
+    .post{
+        border: 2px solid $color1;
+        text-align: center;
+        margin-top: 20px;
+        background-color: white;
+       padding: 20px;
+    
+    }
+    
+    .post_title{
+       text-align: center;
+        font-family: Lora;
+        color: $color1;
+        background-color: white;
+    }
+    
+    .post_para{
+        margin: 15px;
+    }
+    .img{
+        text-align: center;
+    }
+    
+    .containerbloc{
+     margin: 20px;
+    }
+}
+
+.bloc_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.span_ul{
+    display: block;
+    margin: 15px;
+    color: $color2;
+    text-align: left;
+}
+
+.div_ul_1{
+border-right: 1px solid $color1;
+}
+.div_ul_1,.div_ul{
+    padding: 10px;
+    font-family: $font-family3;
+}
+
+.post_span{
+    text-align: center;
+    color: $color2;
+}
+.post_para,.post_span{
+    font-family: $font-family3;
+}
+.strong_color{
+    color: $color2;
+}
+
+.is-grouped{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.control{
+    margin: 10px;
+}
+
+.button{
+    border-radius: 5px;
+    color: $color1;
+    background-color: $color2;
+    padding: 10px 20px;
+    border-color: $color2;
+}
+.textarea{
+    width: 65%;
+    height: 120px;
+}
+.input{
+ padding-right: 120px;}
+.div_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+label{
+    color: $color2;
+}
+
+@media screen and (max-width: 776px){
+.div_input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    width: 100%;
+}
+
+};
+
+@media screen and (max-width: 500px){
+
+    .bloc_ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_ul_1{
+        border: none;
+
+    }
+}

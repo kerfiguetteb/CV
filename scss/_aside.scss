@@ -1,0 +1,67 @@
+
+.asidepost1,.aside_title_ul{
+    color: $color1;
+    font-family: $font-family2;
+
+&--modif{
+        color: white;  
+        display: block;
+        margin-top: 15px;
+        line-height: 5px;   
+}
+&--sousligne{
+    border-bottom: 1px solid $color1; 
+    margin: 50px 80px;
+    text-align: center;
+    padding: 5px;
+}
+}
+.asidemargin{
+    margin-top: 15px;
+    
+}
+aside{
+    background-color: $color2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: $font-family3;
+    z-index: 3;
+  
+}
+
+.aside_li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   list-style: none;
+   text-align: center;
+    height: 100px;
+    border-radius: 100%;
+    background-color: $color1;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+   
+   
+}
+
+
+
+.bloc_aside{
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-around;
+ 
+
+}
+
+.container_ul{
+    z-index: 1;
+}
+
